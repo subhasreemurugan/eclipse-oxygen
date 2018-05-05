@@ -1,0 +1,23 @@
+import turtle
+x,y=eval(input("input centre x,y"))
+width=eval(input("width"))
+height=eval(input("enter height"))
+sq=turtle.Turtle()
+sq.penup()
+sq.goto(x,y)
+
+
+sq.goto((width/2),y)
+sq.pendown()
+sq.left(90)
+sq.forward(height/2)
+sq.left(90)
+sq.forward(width)
+sq.left(90)
+sq.forward(height)
+sq.left(90)
+sq.forward(width)
+sq.left(90)
+sq.forward(height/2)
+sq.hideturtle()
+turtle.done()

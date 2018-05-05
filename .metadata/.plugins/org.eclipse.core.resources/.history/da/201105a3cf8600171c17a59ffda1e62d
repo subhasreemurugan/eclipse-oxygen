@@ -1,0 +1,21 @@
+'''print(5==5)
+b= 8!=9
+print(type(b))
+a=True
+b=int(a)
+print(b)
+c=100
+d=bool(c)
+print(d)'''
+import random
+#print(random.randint(2,5))
+#print(random.randrange(2,5))
+#print(random.randint(2,5))
+a=random.randint(1,100)
+b=random.randint(2,100)
+print("enter the sum of ",a,"+",b)
+ans=eval(input("the sum of"))
+if a+b !=ans:
+    print("worng")
+else :
+    print("right")

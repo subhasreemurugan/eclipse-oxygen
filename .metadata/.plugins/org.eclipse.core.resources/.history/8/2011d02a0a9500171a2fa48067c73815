@@ -1,0 +1,19 @@
+
+# a,b=eval(input("enter 2 nos a,b"))
+# gcd=1
+# k=2
+# while k<=a and k<=b:
+#     if a%k==0 and b%k==0:
+#         gcd=k 
+#     k=k+1
+# print("gcd",gcd)
+
+# factors
+a=int(input("enter a no"))
+while a>0:
+    for i in range(2,a):
+        if a%i==0:
+            a=a/i
+            print(a)
+            break
+    

@@ -1,0 +1,4 @@
+totalmin=eval(input("enter the total minutes"))/(60*12)
+years=totalmin//365
+days=totalmin%365  
+print(years," ",days)

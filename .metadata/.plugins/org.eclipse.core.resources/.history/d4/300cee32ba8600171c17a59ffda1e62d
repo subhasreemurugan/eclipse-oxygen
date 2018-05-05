@@ -1,0 +1,10 @@
+#country=input("enter a val").upper()
+#print(country)
+#hour=input("hour");
+#rate=input("rate")
+print(round(1.5))
+x1,y1=eval(input("point1 x,y"))
+x2,y2=(evalinput("point1 x2,y2"))
+x3,y3=eval(input("point1 x3,y3"))
+a=sqrt((x2-x1)**2+(y2-y1)**2)
+print(a)

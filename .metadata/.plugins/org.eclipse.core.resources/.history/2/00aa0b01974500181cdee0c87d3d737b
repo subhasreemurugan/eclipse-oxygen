@@ -1,0 +1,25 @@
+package hashTable;
+
+public class duplicate_removal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     String str = "aaaaaabbb";
+     String srtdupli = "";
+     srtdupli+= str.charAt(0); 
+     boolean flag=true;
+     for( int i = 0;i < str.length();i++) {
+    	 for(int j = i;j < str.length();j++) {
+      		 if(str.charAt(j) == str.charAt(i) ) 
+      			 flag=false;
+      			 
+    	 }
+    	 if(flag==true) {
+    		 srtdupli += str.charAt(i); 
+    	 }
+    	 
+     }
+     System.out.println(srtdupli);
+	}
+
+}

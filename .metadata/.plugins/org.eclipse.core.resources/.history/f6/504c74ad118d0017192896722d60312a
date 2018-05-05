@@ -1,0 +1,8 @@
+no=eval(input("enter the integer"))
+sum=0
+while(no!=0):
+    sum=sum+no%10
+    print("sum",sum)
+    no=no//10
+    print(no)
+print("sum",sum)

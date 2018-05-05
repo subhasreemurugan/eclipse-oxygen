@@ -1,0 +1,82 @@
+package list;
+
+public class listmethod {
+	node head;
+	
+	//Add element at the begining
+	public void addele(int data) {
+	node newnode = new node();
+	node n1 = head;
+	newnode.data = data;
+	newnode.next = null;
+	if(head == null) {
+		head = newnode;
+	}
+	else {
+		while(n1.next != null) {
+			n1 = n1.next;
+			
+		}
+		n1.next = newnode;
+	}	
+	}
+	public void  show() {
+		node n1 = head;
+		while(n1.next != null) {
+			System.out.print(n1.data+", ");
+			n1 = n1.next;
+		}
+		System.out.println(n1.data+".");
+	}
+	public void delStart() {
+		node n1=head;
+		head=head.next;
+		System.out.println(" this item was deleted start ="+n1.data);
+		
+	}
+	public  void delEnd() {
+		
+		node n1 = head;
+		
+		node prev=head;
+
+		while(n1.next != null) {
+			//System.out.println(n1.data);
+			prev=n1;
+			n1 = n1.next;
+		}
+//      if(n1.next==null) {
+//    	head=null;
+//    }
+//      else {
+    	  System.out.println(n1.data+" was deleted at end");
+  		  prev.next = null;  
+    //  }
+		
+	}
+ public listmethod duplicate(listmethod l1) {
+	 listmethod l2= l1;
+	 l2.show();
+	 node n2= l2.head;
+	 node ptr = l2.head;
+	 int dupli;
+	 while(n2.next != null) {
+		ptr= n2.next;
+		while(ptr.next != null) {
+			if(n2.data == ptr.next.data) {
+				dupli = ptr.data;
+				ptr.next = ptr.next.next; 
+				System.out.println(dupli);
+			}
+			else {
+				ptr= ptr.next;
+			}
+		}
+		n2=n2.next;
+	 }
+	 return l2;
+	 
+	
+	 
+ }
+}

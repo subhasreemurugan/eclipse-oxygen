@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+C:\Users\mssub\eclipse-oxygen\.metadata\.plugins\org.eclipse.jdt.core
+3256760946.index
+1941282295.index
+1582166739.index

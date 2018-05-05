@@ -1,0 +1,7 @@
+from turtle import *
+# showturtle()
+# write("hello")
+# print("hello")
+pen1=pen()
+pen1.screen.bgcolor("#000")
+turtle.done()

@@ -1,0 +1,25 @@
+package hashTable;
+
+public class uniqchars {
+	public static void main(String Args[]) {
+		String s= "gdsh mnbb";
+		boolean flag=true;
+		for (int i =0;i<s.length();i++) {
+		  for(int j=0;j<s.length();j++) {
+			  if(s.charAt(i)==s.charAt(j) && i!=j) {
+				 flag = false; 
+				 break;  
+			  }   
+		  }
+		      if(flag==false) {
+		    	  break;
+		      }
+		}
+		if(flag!=true) {
+			  System.out.println(" not uniq");
+		  }
+		else {
+			System.out.println(" uniq");
+		}
+	}
+}

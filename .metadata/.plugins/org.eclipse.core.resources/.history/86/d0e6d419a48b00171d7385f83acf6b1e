@@ -1,0 +1,12 @@
+import turtle
+turtle.showturtle()
+turtle.write("hello")
+print("hello")
+bob = turtle.Turtle()
+bob.forward(50)
+bob.right(90)
+bob.forward(50)
+for i in range(4):
+    print(i)
+    print("test")
+turtle.done()

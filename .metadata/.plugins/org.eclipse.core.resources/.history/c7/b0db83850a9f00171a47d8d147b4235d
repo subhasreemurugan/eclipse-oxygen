@@ -1,0 +1,12 @@
+class GeometricObject:
+    def __init__(self):
+        pass
+class triangel(GeometricObject):
+    def __init__(self, s1 = 1, s2 = 1, s3 = 1):
+        super().__init__()
+        self.s1=s1
+        self.s2=s2
+        self.s3=s3
+    
+        
+        

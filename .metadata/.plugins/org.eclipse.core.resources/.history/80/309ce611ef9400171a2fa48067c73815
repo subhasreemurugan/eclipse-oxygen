@@ -1,0 +1,9 @@
+
+a,b=eval(input("enter 2 nos"))
+gcd=1
+k=2
+while k<=a and k<=b:
+    if a%k==0 and b%k==0:
+        gcd=k 
+    k=k+1
+print("gcd",k)

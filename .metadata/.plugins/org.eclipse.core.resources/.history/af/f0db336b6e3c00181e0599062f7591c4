@@ -1,0 +1,15 @@
+package hashTable;
+
+public class uniqchars {
+	public static void main(String Args[]) {
+		String s= "gfdsh mnb";
+		int count =0;
+		for (int i =0;i<s.length();i++) {
+			if(s.indexOf(count)== s.indexOf(i)) {
+				System.out.println("not all unique");
+				break;
+			}
+			System.out.println("unique");
+		}
+	}
+}

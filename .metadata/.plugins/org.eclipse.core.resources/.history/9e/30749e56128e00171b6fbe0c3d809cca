@@ -1,0 +1,4 @@
+totalmin=eval(input("enter the total minutes"))/60/24
+years=int(totalmin/365)
+days=int(totalmin%365)
+print("totalmin is approximately", years ,"years"," ",days,"days")

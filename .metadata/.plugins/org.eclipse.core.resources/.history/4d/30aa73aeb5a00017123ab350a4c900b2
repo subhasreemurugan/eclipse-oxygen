@@ -1,0 +1,4 @@
+import urllib.request
+url=input("enter the url ").strip()
+file1=url.read().decode()
+print(len(file1.split()))

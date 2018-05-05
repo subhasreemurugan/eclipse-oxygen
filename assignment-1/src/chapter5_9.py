@@ -1,0 +1,6 @@
+tution=10000
+for i in range(14):
+    tution=tution+ tution*0.5
+    if i==9:
+        print("tution  for 10 years",tution)
+print("tution  total for 14 years",tution)

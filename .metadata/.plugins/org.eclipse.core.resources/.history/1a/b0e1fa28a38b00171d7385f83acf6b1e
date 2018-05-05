@@ -1,0 +1,6 @@
+import turtle
+turtle.showturtle()
+turtle.write("hello")
+print("hello")
+bob = turtle.Turtle()
+turtle.done()

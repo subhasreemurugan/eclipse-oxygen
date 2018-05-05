@@ -1,0 +1,17 @@
+'''
+Created on Sep 24, 2017
+
+@author: mssub
+'''
+import os.path
+import sys
+dict={"and":"0","for":"0","if":"0"}
+filnam=input("enter gthe file name")
+if not os.path.isfile(filnam):
+    print("file does not exist")
+    sys.exit()
+f1=open(filnam,'r')
+line=f1.split()
+for x in line:
+    if x in dict.items():
+        print(x)

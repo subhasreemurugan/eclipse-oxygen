@@ -1,0 +1,5 @@
+#country=input("enter a val").upper()
+#print(country)
+#hour=input("hour");
+#rate=input("rate")
+print(round(2.5))

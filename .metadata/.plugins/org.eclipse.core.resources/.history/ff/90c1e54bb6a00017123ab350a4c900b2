@@ -1,0 +1,16 @@
+import urllib.request
+url=input("enter the url ").strip()
+file1 = urllib.request.urlopen(url)
+file2=file1.read()
+print(len(file2.split()))
+file1.close()
+
+
+# import urllib.request
+# 
+# def main():
+#     infile = urllib.request.urlopen("http://cs.armstrong.edu/liang/data/Lincoln.txt")
+#     s = infile.read()
+# 
+#     print("The number of words in the file is " + str(len(s.split())))
+# main()

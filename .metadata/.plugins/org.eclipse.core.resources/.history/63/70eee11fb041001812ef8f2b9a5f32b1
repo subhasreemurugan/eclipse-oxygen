@@ -1,0 +1,19 @@
+package hashTable;
+
+public class rev_str {
+public static void main(String args[]) {
+	String str= "abcd ";
+	char[] rev= reverse(str);
+	System.out.println(rev);
+}
+public static char[] reverse( String str) {
+	char [] rev_char=str.toCharArray();
+	char[] rev=new char[rev_char.length];
+	int j=0;
+	for (int i =rev_char.length;i>0;i++) {
+	  	rev[j]=rev_char[i];
+	  	j++;
+	}
+	return rev;
+}
+}

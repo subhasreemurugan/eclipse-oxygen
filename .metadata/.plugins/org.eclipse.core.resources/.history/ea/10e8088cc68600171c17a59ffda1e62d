@@ -1,0 +1,58 @@
+#country=input("enter a val").upper()
+#print(country)
+#hour=input("hour");
+#rate=input("rate")
+import math
+'''
+print(round(1.5))
+x1,y1=eval(input("point1 x,y"))
+x2,y2=eval(input("point1 x2,y2"))
+x3,y3=eval(input("point1 x3,y3"))
+a=math.sqrt((((x2-x1)**2)+((y2-y1)**2)))
+print(a)
+b=math.sqrt((((x3-x2)**2)+((y3-y2)**2)))
+print(b)
+c=math.sqrt((((x3-x1)**2)+((y3-y1)**2)))
+print(c)
+A=math.acos((a*a-b*b-c*c)/(-2*b*c))
+print("angle A",A)
+B=math.acos((b*b-c*c-a*a)/(-2*a*c))
+print("angle B",B)
+C=math.acos((c*c-a*a-b*b)/(-2*b*a))
+print("angle C",C)
+#print examples
+print("hello",end=" ")
+print("world")
+
+print("ab","cd")
+print("ab","cd",sep='+')
+print(chr(98))
+
+
+message="hello"+"world"
+# message="hello"+"world"+2    will throw error int concatenate with string
+print(message)
+'''
+# dollar-pennies
+'''
+amount=eval(input("a value"))
+cents=amount*100
+dollar=int(cents/100)
+rem=cents%100
+print('dollar',dollar)
+q=int(rem/25)
+rem=rem%25
+print("quarters",(q))
+dime=int(rem/10)
+rem=rem%10
+print("dime",dime)
+nickel=int(rem/5)
+rem=rem%5
+print("nickel",nickel)
+pennies=rem
+print("pennies",pennies)
+
+'''
+n=5
+print(id(n))
+print(type(n))

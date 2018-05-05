@@ -1,0 +1,47 @@
+def dectohex(s):
+    if s>=10:
+        c=s-10+ord('A')
+        print(s," this c",c)
+        print(chr(c))
+        return chr(c) 
+    else:
+        return s 
+def bintohex(bv):
+    print(bv+1)
+    arr=[]
+    i=0
+    arr.append(0)
+    arr.pop()
+    while(bv>0):
+        arr.append(bv%10)
+        bv=bv//10
+    print(arr)
+    count=digit=sum=0
+    finalstr=''     
+    for i in range(len(arr)):
+        count=count+1
+        digit=arr[i]*2**i
+        sum=digit+sum
+        
+        if(count%4==0):
+           print(sum)
+           c=dectohex(sum)
+           print(c,"this is c")
+           finalstr=finalstr+c
+           print(finalstr)
+           count=0
+           sum=digit=0
+    print(finalstr)
+        
+def main():
+  inp=input("enter a binary number")
+  str=''
+  if len(inp)%4 !=0:
+      zero=4-len(inp)%4
+      for i in range(zero):
+          str=str+'0'
+      inp=inp+str
+  intinp=int(inp)
+  print(intinp)
+  bintohex(intinp)
+main()

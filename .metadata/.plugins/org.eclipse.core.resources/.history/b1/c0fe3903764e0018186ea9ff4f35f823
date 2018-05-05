@@ -1,0 +1,9 @@
+package list;
+
+public class reverselist {
+	public static void main(String args[]) {
+	    listmethod l1= new listmethod();
+	    
+	}
+
+}

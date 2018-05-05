@@ -1,0 +1,8 @@
+no=eval(input("enter a number between 0 and 1000:"))
+sum=0
+while(no!=0):
+    sum=sum+no%10
+#     print("sum",sum)
+    no=no//10
+#     print(no)
+print("sum of then digites is",sum)

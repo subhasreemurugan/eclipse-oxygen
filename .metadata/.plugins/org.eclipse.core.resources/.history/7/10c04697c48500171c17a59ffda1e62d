@@ -1,0 +1,2 @@
+country=input("enter a val").upper()
+print(country)

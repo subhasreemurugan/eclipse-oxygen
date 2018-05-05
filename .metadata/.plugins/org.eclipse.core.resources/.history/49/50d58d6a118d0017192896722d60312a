@@ -1,0 +1,4 @@
+no=eval(input("enter the integer"))
+sum=0
+sum=sum+no%10
+no=no//10

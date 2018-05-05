@@ -1,0 +1,39 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\mssub\eclipse-oxygen\.metadata\.plugins\org.eclipse.core.resources\.projects\pybook\com.python.pydev.analysis\v2_indexcache
+chap7|1504966737782853000|C:\Users\mssub\eclipse-oxygen\pybook\src\chap7.py
+chap6|1505404467039601000|C:\Users\mssub\eclipse-oxygen\pybook\src\chap6.py
+chap12|1505780721996795000|C:\Users\mssub\eclipse-oxygen\pybook\src\chap12.py
+chap5|1503964249572496000|C:\Users\mssub\eclipse-oxygen\pybook\src\chap5.py
+chap11|1504973265279264000|C:\Users\mssub\eclipse-oxygen\pybook\src\chap11.py
+paperscicor|1504848130499097000|C:\Users\mssub\eclipse-oxygen\pybook\src\paperscicor.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+4=chap7
+2=chap6
+3=chap5
+6=chap12
+5=chap11
+1=paperscicor
+-- END DICTIONARY
+-- START TREE 1
+14
+com|1|comp!11@
+gra|1|grade!18@
+hit|1|hits!27@
+i|1|i!35@
+j|1|j!35@
+lis|1|list1!43@
+mai|1|main!18@
+pal|3|pali!35@palindrom!35@palindrome!35@
+s1|1|s1!35@
+sum|1|sumno!18@
+tra|1|trail!27@
+tup|1|tuple1!51@
+urs|1|urs!11@
+val|1|val!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

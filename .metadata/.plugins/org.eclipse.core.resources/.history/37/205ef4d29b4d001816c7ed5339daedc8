@@ -1,0 +1,19 @@
+package list;
+
+public class list_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		listmethod l1= new listmethod();
+		l1.addele(10);
+		//l1.show();
+		l1.addele(11);
+		l1.addele(12);
+		l1.show();
+		l1.delStart();
+		l1.show();
+        l1.delEnd();
+        l1.show();
+	}
+
+}
